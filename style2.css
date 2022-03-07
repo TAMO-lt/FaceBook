@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* nav */
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: #4867AA;
+}
+nav > img{
+    height: 70px;
+}
+/* main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    justify-content: center;
+}
+input[type=email],input[type=password]{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid rgba(214, 214, 214, 0.445);
+    background-color: #F5F6F8;
+    outline: 0;
+}
+input[type=email]{
+    border-bottom: 0;
+}
+input[type=submit]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 11px;
+    background: #1878F3;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    font: arial;
+    font-weight: bold;
+}
+.or > div{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.918);
+}
+.or{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+.or > p{
+    padding: 0 10px;
+    margin-top: -10px;
+    color: #777;
+    font: arial;
+}
+.create{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main >.create> button{
+    background:#12c712;
+    color: white;
+    font-family: arial;
+    padding: 8px 12px;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    margin: 15px 0;
+}
+main > a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1878F3;
+}
+main > a:hover{
+    text-decoration: underline;
+}
+.kalbos{
+    width: 100%;
+    display: flex;
+    margin: 75px 0;
+}
+.kalba{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.a, .b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(141, 148, 184);
+}
+.inc{
+    color: #888;
+}
