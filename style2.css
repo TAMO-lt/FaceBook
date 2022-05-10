@@ -45,6 +45,12 @@ input[type=submit]{
     font: arial;
     font-weight: bold;
 }
+@media only screen and (min-width: 1000px){
+    input[type=email],input[type=password], input[type=submit]{
+        width: 40%;
+        margin: 5px 0;
+    }
+}
 .or > div{
     height: 1px;
     width: 100%;
@@ -103,4 +109,9 @@ main > a:hover{
 }
 .inc{
     color: #888;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
